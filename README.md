@@ -146,13 +146,4 @@ ValueError: DUFFEL_TOKEN is not set
 
 - **Google Flights Search** via SerpAPI
 - **Duffel API** docs at duffel.com
-
----
-
-## 📌 Next Steps
-
-- Add pagination for large results
-- Cache frequent searches locally to save API credits
-- Support filtering by airline, stops, and price ranges
-
 ---
