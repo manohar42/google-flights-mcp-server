@@ -1,0 +1,14 @@
+mcp
+mcp[cli]
+httpx
+pydantic
+python-dotenv
+python-dateutil
+structlog
+pytest
+pytest-asyncio
+pytest-httpx
+black
+requests
+aiohttp
+uuid
