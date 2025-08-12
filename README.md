@@ -26,28 +26,26 @@ This project provides a **local MCP server** that allows you to:
 ## 🛠 Requirements
 
 You’ll need:
-
+```
 - **Python** 3.9+
 - **SerpAPI API key** for Google Flights search
 - **Duffel API key** for flight booking
 - Install dependencies:
   pip install httpx requests python-dotenv fastmcp
-
-text
+```
 
 ---
 
 ## 🔑 Environment Variables
 
 Create a `.env` file in the project root:
-
+```
 SerpAPI key for Google Flights
 SERPAPI_API_KEY=your_serpapi_key_here
 
 Duffel API key for booking
 DUFFEL_TOKEN=your_duffel_api_key_here
-
-text
+```
 
 Both keys are **required** for full functionality:
 
@@ -62,13 +60,13 @@ From the project root:
 
 python src/mcp_server_base.py
 
-text
+```
 
 The server will start at:
 
 http://127.0.0.1:8000
 
-text
+```
 
 ---
 
@@ -107,7 +105,7 @@ Run directly without the MCP server:
 
 python Testing_tools/tool_tester.py
 
-text
+```
 
 Example output:
 {
@@ -125,7 +123,7 @@ Example output:
 }
 }
 
-text
+```
 
 ---
 
@@ -134,11 +132,11 @@ text
 - Missing API keys will raise:
   ValueError: SERP API key is required
 
-text
+```
 or
 ValueError: DUFFEL_TOKEN is not set
 
-text
+```
 
 - Network/API errors return a JSON object with `error: True` and details
 
