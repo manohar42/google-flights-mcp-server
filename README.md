@@ -19,7 +19,7 @@ This project provides a **local MCP server** that allows you to:
 ├── Testing_tools/
 │ └── tool_tester.py # Simple script to test multi-city flight search
 ├── .env # Environment variables (API keys)
-└── requirements.txt # Python dependencies (create this)
+└── requirements.txt # Python dependencies
 
 ```
 
