@@ -21,8 +21,6 @@ This project provides a **local MCP server** that allows you to:
 ├── .env # Environment variables (API keys)
 └── requirements.txt # Python dependencies (create this)
 
-text
----
 ---
 
 ## 🛠 Requirements
