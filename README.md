@@ -78,14 +78,14 @@ http://127.0.0.1:8000
   - Searches one-way or round trips via Google Flights
 - **`search_multi_city(legs, travel_class="economy", adults=1)`**
   - Searches multi-city flight itineraries
-
+```
 Example `legs` format:
 [
 {"from": "LAX", "to": "JFK", "date": "2025-09-15"},
 {"from": "JFK", "to": "LAX", "date": "2025-09-20"}
 ]
 
-text
+```
 
 ### 2️⃣ Booking Tools (Duffel API)
 
